@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+	<name>mod_desktop_intro_banner</name>
+	<author>Joshua Johnson</author>
+	<creationDate>October 2017</creationDate>
+	<copyright>Copyright (C) 2017 Joshua Johnson. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later</license>
+	<authorEmail>JJohnsonDeveloped@gmail.com</authorEmail>
+	<authorUrl>my domain</authorUrl>
+	<version>0.0.1alpha</version>
+	<description>MOD_DESKTOP_INTRO_BANNER</description>
+	<files>
+		<filename module="mod_desktop_intro_banner">mod_desktop_intro_banner.php</filename>
+	</files>
+	<language>
+	</language>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="test" type="text" label="Test" description="here we go." default="default value"/>
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
